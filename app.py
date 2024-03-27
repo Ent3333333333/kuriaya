@@ -33,4 +33,4 @@ for i, row in selected_product_data.iterrows():
 
 
 # ユーザーが選択した都道府県と、関連する画像を表示
-user_input = st.text_input("あなたは"+"「"+str(selected_prefecture)+ "」" + "を選んだよ！", key="user_input", on_change=communicate)
+user_input = st.text_input("あなたは"+"「"+str(selected_prefecture)+ "」" + "を選んだよ！", key="user_input")
